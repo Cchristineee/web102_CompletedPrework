@@ -34,7 +34,9 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+One challange that I encountered was using the template literalls correcly. In several places in my code, I would often accidentely use the single quotes instead of the backticks which would cause the JavaScript expressions such as ${variable} to render as plain text on the page rather than evaluating to their actual values. It would affect the stats cards, the description string, and the top funded game displays. Debugging that required a lot careful reviewing of each line where the literalls were used. 
+
+Another challange I faced was definetely understanding how reduce() worked. Building up an accumulator to sum values across an array was a new concept, and it took some practice to get the arrow function syntax right. I also ran into a Git issue where my local branch was behind the remote, causing a rejected push. I resolved this by running git pull origin main --rebase before pushing again.
 
 ## License
 
