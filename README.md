@@ -22,15 +22,13 @@ The following **optional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
+<img width="1425" height="669" alt="SeaMonster" src="https://github.com/user-attachments/assets/4dc183a5-1fc1-436a-acb9-aa3f8e8c2e67" />
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+GIF created with LICEcap and converted from EZgif 
+<br>
+(using it on mac converts it into frames only so I had to also use EZgif)
+
 
 ## Notes
 
