@@ -148,7 +148,7 @@ const descriptionContainer = document.getElementById("description-container");
 const numUnfundedGames = GAMES_JSON.filter(game => game.pledged < game.goal).length;
 
 // create a string that explains the number of unfunded games using the ternary operator
-const descriptionString  = 'A total of $${totalRaised.toLocaleString()} has been raised for ${GAMES_JSON.length} games. Currently, ${numUnfundedGames} ${numUnfundedGames === 1 ? "game remains" : "games remain"} unfunded. We need your help to fund these amazing games!';
+const descriptionString = `A total of $${totalRaised.toLocaleString()} has been raised for ${GAMES_JSON.length} games. Currently, ${numUnfundedGames} ${numUnfundedGames === 1 ? "game remains" : "games remain"} unfunded. We need your help to fund these amazing games!`;
 
 // create a new DOM element containing the template string and append it to the description container
 const descriptionElement = document.createElement("p");
@@ -172,8 +172,9 @@ const [firstGame, secondGame, ...rest] = sortedGames;
 // create a new element to hold the name of the top pledge game, then append it to the correct element
 const firstGameElement = document.createElement("p");
 firstGameElement.innerHTML = `${firstGame.name}`;
-secondGameElement.innerHTML = `${secondGame.name}`;
+firstGameContainer.appendChild(firstGameElement);
 
 // do the same for the runner up item
 const secondGameElement = document.createElement("p");
 secondGameElement.innerHTML = `${secondGame.name}`;
+secondGameContainer.appendChild(secondGameElement);
